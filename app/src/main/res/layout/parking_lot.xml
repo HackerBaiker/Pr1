@@ -7,6 +7,20 @@
     tools:context=".ParkingLot">
 
     <Button
+        android:id="@+id/logoutB"
+        android:layout_width="117dp"
+        android:layout_height="51dp"
+        android:password="false"
+        android:tag='android:onClick="sendMessage"'
+        android:text="LOGOUT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
         android:id="@+id/pl1"
         android:layout_width="65dp"
         android:layout_height="125dp"
@@ -211,4 +225,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.212" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
