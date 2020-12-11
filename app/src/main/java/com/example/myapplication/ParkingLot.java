@@ -62,8 +62,8 @@ public class ParkingLot extends AppCompatActivity {
                     if (mFirebaseUser != null) {
                         // User is signed in.
 
-                        Firebase childRef = mRootRef.child("Pirma");
-                        childRef.setValue("123");
+                        Firebase childRef = mRootRef.child("Pirm33a");
+                        childRef.setValue("12333");
                         //validate();
                         Toast.makeText(ParkingLot.this, "Prisijungta?", Toast.LENGTH_SHORT).show();
                     } else {
@@ -82,14 +82,13 @@ public class ParkingLot extends AppCompatActivity {
             public void onClick(View v) {
 
                 DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("ParkingLot");
-                Toast.makeText(ParkingLot.this, "Vapse veikia tas void", Toast.LENGTH_SHORT).show();
 
                 reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        Toast.makeText(ParkingLot.this, "Vapse veikia tascccc", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ParkingLot.this, "Pasileidzia", Toast.LENGTH_SHORT).show();
                         if(snapshot.exists()){
-                            String m = snapshot.child("Antrute").child("nzn").getValue(String.class);
+                            String m = snapshot.child("Antra").child("12346").getValue(String.class);
                             Toast.makeText(ParkingLot.this, m, Toast.LENGTH_SHORT).show();
 
                         }
@@ -127,12 +126,12 @@ public class ParkingLot extends AppCompatActivity {
     private void validate(){
 
       DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("ParkingLot");
-        Toast.makeText(ParkingLot.this, "Vapse veikia tas void", Toast.LENGTH_SHORT).show();
+        Toast.makeText(ParkingLot.this, "asd", Toast.LENGTH_SHORT).show();
 
         reference.addValueEventListener(new ValueEventListener() {
           @Override
           public void onDataChange(@NonNull DataSnapshot snapshot) {
-              Toast.makeText(ParkingLot.this, "O cia?", Toast.LENGTH_SHORT).show();
+              Toast.makeText(ParkingLot.this, "ccc", Toast.LENGTH_SHORT).show();
 
               String a = snapshot.getValue().toString();
           String b = snapshot.getChildren().toString();

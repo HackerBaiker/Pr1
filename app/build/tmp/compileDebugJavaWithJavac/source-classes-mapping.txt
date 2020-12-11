@@ -1,0 +1,21 @@
+com/example/myapplication/Credentials.java
+ com.example.myapplication.Credentials
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/SignUp.java
+ com.example.myapplication.SignUp
+ com.example.myapplication.SignUp$1
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+ com.example.myapplication.MainActivity$2
+ com.example.myapplication.MainActivity$3
+ com.example.myapplication.MainActivity$4
+ com.example.myapplication.MainActivity$5
+com/example/myapplication/ParkingLot.java
+ com.example.myapplication.ParkingLot
+ com.example.myapplication.ParkingLot$1
+ com.example.myapplication.ParkingLot$2
+ com.example.myapplication.ParkingLot$3
+ com.example.myapplication.ParkingLot$3$1
+ com.example.myapplication.ParkingLot$4
